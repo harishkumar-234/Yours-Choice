@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Collection - Your's Choice </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Top Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> +1 234 567 8900</span>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Your Choice Logo">
+                <h1>Your's Choice</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands and more...">
+                <button><i class="fas fa-search">Search</i></button>
+            </div>
+            <div class="user-actions">
+                <a href="#"><i class="far fa-user"></i></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+                <a href="#">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">3</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="men.html" class="active">Men <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="men.html?category=shirts">Shirts</a></li>
+                        <li><a href="men.html?category=pants">Pants</a></li>
+                        <li><a href="men.html?category=t-shirts">T-Shirts</a></li>
+                        <li><a href="men.html?category=trousers">Trousers</a></li>
+                        <li><a href="men.html?category=kurtas">Kurtas</a></li>
+                        <li><a href="men.html?category=inners">Inners</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="women.html">Women <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="women.html?category=shirts">Shirts</a></li>
+                        <li><a href="women.html?category=pants">Pants</a></li>
+                        <li><a href="women.html?category=t-shirts">T-Shirts</a></li>
+                        <li><a href="women.html?category=saree">Saree</a></li>
+                        <li><a href="women.html?category=off-saree">Off Saree</a></li>
+                        <li><a href="women.html?category=lehenga">Lehenga</a></li>
+                        <li><a href="women.html?category=chudithar">Chudithar</a></li>
+                        <li><a href="women.html?category=gown">Gown</a></li>
+                        <li><a href="women.html?category=tops">Tops</a></li>
+                        <li><a href="women.html?category=low-tops">Low Tops</a></li>
+                        <li><a href="women.html?category=inners">Inners</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Collections</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Men's Collection</h1>
+            <p>Discover our premium collection of men's clothing</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="category-page">
+        <div class="container">
+            <div class="category-layout">
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <h3>Categories</h3>
+                    <ul class="category-list">
+                        <li><a href="men.html?category=shirts" data-category="shirts">Shirts</a></li>
+                        <li><a href="men.html?category=pants" data-category="pants">Pants</a></li>
+                        <li><a href="men.html?category=t-shirts" data-category="t-shirts">T-Shirts</a></li>
+                        <li><a href="men.html?category=trousers" data-category="trousers">Trousers</a></li>
+                        <li><a href="men.html?category=kurtas" data-category="kurtas">Kurtas</a></li>
+                        <li><a href="men.html?category=inners" data-category="inners">Inners</a></li>
+                    </ul>
+
+                    <div class="filters">
+                        <h3>Filters</h3>
+                        <div class="filter-group" id="shirt-filters">
+                            <h4>Shirt Types</h4>
+                            <label><input type="checkbox" value="denim"> Denim Shirts</label>
+                            <label><input type="checkbox" value="plain"> Plain Shirts</label>
+                            <label><input type="checkbox" value="checked"> Checked Shirts</label>
+                            <label><input type="checkbox" value="cotton"> Cotton Shirts</label>
+                            <label><input type="checkbox" value="lenin"> Lenin Shirts</label>
+                        </div>
+                        <div class="filter-group" id="pants-filters">
+                            <h4>Pants Types</h4>
+                            <label><input type="checkbox" value="jeans"> Jeans</label>
+                            <label><input type="checkbox" value="cargo"> Cargo</label>
+                            <label><input type="checkbox" value="pencil"> Pencil Fit</label>
+                            <label><input type="checkbox" value="angle"> Angle Fit</label>
+                            <label><input type="checkbox" value="cotton"> Cotton</label>
+                            <label><input type="checkbox" value="lycra"> Lycra</label>
+                        </div>
+                        <div class="filter-group" id="t-shirt-filters">
+                            <h4>T-Shirt Types</h4>
+                            <label><input type="checkbox" value="half"> Half Hand</label>
+                            <label><input type="checkbox" value="full"> Full Hand</label>
+                            <label><input type="checkbox" value="hoodie"> Hoodie</label>
+                            <label><input type="checkbox" value="denim"> Denim</label>
+                            <label><input type="checkbox" value="printed"> Printed</label>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- Products Grid -->
+                <section class="products-section">
+                    <div class="products-header">
+                        <h2 id="category-title">All Men's Products</h2>
+                        <div class="sort-options">
+                            <label for="sort-by" class="visually-hidden">Sort products</label>
+                            <select id="sort-by">
+                                <option value="default">Sort By</option>
+                                <option value="price-low">Price: Low to High</option>
+                                <option value="price-high">Price: High to Low</option>
+                                <option value="name">Name</option>
+                                <option value="newest">Newest</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="product-grid" id="men-products">
+                        <!-- Products will be loaded by JavaScript -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Your Choice</h3>
+                    <p>Your premier destination for authentic Indian fashion. We bring you the finest collection of traditional and contemporary Indian wear.</p>
+                    <div class="social-links" style="margin-top: 20px;">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="men.html">Men's Collection</a></li>
+                        <li><a href="women.html">Women's Collection</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Fashion Street, New York, NY 10001</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 8900</li>
+                        <li><i class="fas fa-envelope"></i> info@yourchoice.com</li>
+                    </ul>
+                    <div class="newsletter">
+                        <p>Subscribe to our newsletter for updates</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your email address">
+                            <button type="submit"><i class="fas fa-paper-plane">Submit</i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Your Choice. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
